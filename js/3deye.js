@@ -116,8 +116,8 @@
         }
 
         function initializeOverlayDiv() {
-            $("html").append("<style type='text/css'>.onLoadingDiv{background-color:#00FF00;opacity:0.5;text-align:center;font-size:2em;font:color:#000000;}</style>")
-            $(selector).html("<div id='VCc' style='height:100%;width:100%;' class='onLoadingDiv'>Loading...</div>");
+            $("html").append("<style type='text/css'>.onLoadingDiv{background-color:#FFFFFF;opacity:0.2;text-align:center;font-size:2em;font:color:#000000;}</style>")
+            $(selector).html("<div id='VCc' style='height:100%;width:100%;' class='onLoadingDiv'>Cargando...</div>");
         }
 
         function getCurrentImage(){
