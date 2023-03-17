@@ -93,7 +93,7 @@
 
         function forceLoadAllImages() {
         	//load the first image
-            var loadedImages = 2;
+            var loadedImages = 51;
             var appropriateImageUrl = imagePath + this.currentImage+'.' + imageExtension;
             selector.css("background-image", "url(" + appropriateImageUrl + ")");
             
@@ -102,7 +102,7 @@
             });
 
             //load all other images by force
-            for (var n = 2; n <= totalImages; n++) {
+            for (var n = 51; n <= totalImages; n++) {
                 appropriateImageUrl = imagePath + n+"." + imageExtension;
                 selector.append("<img src='" + appropriateImageUrl + "' style='display:none;'>");
                 $("<img/>").attr("src", appropriateImageUrl).css("display", "none").load(function() {
